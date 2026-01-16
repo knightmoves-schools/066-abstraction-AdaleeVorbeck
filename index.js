@@ -2,7 +2,7 @@ class TaxCalculator{
     
         #rate = 15;
         state = 'TX';
-        exempt = false;
+        #exempt = false;
     
     calculate(){
         if(this.exempt){
